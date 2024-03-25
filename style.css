@@ -1,0 +1,66 @@
+/* Stylizacja formularza */
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 1.1em;
+    color: white;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] { /* Przykładowy niebieski kolor, który możesz zmienić */
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+input[type="submit"]:hover {
+
+    background-color: #0056b3; /* Ciemniejszy odcień niebieskiego dla efektu hover */
+}
+
+/* Informacje zwrotne po wysłaniu formularza */
+p {
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Odpowiednie marginesy dla label i input */
+label, input {
+    display: block;
+    margin: 0 0 15px;
+    font
+}
+
+/* Styl dla tekstowych inputów */
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Zapewnia, że padding nie zwiększa szerokości inputa */
+}
+
+/* Zmiana stylu przycisku submit przy najechaniu */
+input[type="submit"]:hover {
+    opacity: 0.8;
+}
